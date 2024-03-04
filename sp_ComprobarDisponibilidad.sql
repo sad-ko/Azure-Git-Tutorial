@@ -3,7 +3,7 @@ CREATE PROCEDURE [dbo].[ComprobarDisponibilidad]
     @output bit output
 AS
 BEGIN
-    SELECT TOP 1 [enable]
+    SELECT [enable]
     FROM [dbo].[FaenaEtiquetas]
     WHERE [etiqueta] = @etiqueta
 END
