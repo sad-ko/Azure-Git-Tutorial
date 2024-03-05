@@ -16,3 +16,5 @@ CREATE UNIQUE NONCLUSTERED INDEX [IX_Unique_FaenaEtiquetas] ON [cambiarEtiquetas
 	DROP_EXISTING = OFF, ONLINE = OFF,
 	ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON
 ) ON [PRIMARY]
+
+PRINT 'Se ejecutó la consulta?'
