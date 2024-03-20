@@ -22,16 +22,32 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="PreviewTable.sql">
+        <FileNode Name="PreviewTables.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:rafatest:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>rafatest</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>PreviewTables.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:rafatest:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>rafatest</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items />
+    </LogicalFolder>
+	<LogicalFolder Name="Subfolder" Type="4" Sorted="true">
+      <Items>
+		<FileNode Name="test.txt">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:rafatest:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>rafatest</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test.txt</FullPath>
+        </FileNode>
+	  </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
